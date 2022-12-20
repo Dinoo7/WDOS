@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="CSS/booking.css"/>
+        <title>
+            Booking Page
+        </title>
+    </head>
+    <body>
+        <h1>Ticket Booking</h1>
+        <form id="ticketbooking">
+            <fieldset>
+            <h2>Reservation Date</h2>
+                <p>
+                    <label for="date">Arrival Date:</label>
+                    <input type="date" id="date" name="arrivalDate" value="date" autofocus required>
+                </p>  
+
+                <h2>Guest Details</h2>
+                    <div class="guestDetails">
+                        <label>Full Name</label><br> 
+                        <input type="text" id="fullName" name="fullName" size="16" placeholder="Full Name" required><br><br>
+                    </div>
+                    <div class="guestDetails">
+                        <label>Mobile Number</label><br> 
+                        <input type="tel" id="mobNum" name="mobNum" size="11" maxlength="10" placeholder="+94" required><br><br>
+                    </div>
+                    <div class="guestDetails">
+                        <label>Email Address</label><br> 
+                        <input type="email" id="eMail" name="Email" placeholder="Email" required><br> <br>
+                    </div>
+                    <div class="guestDetails">
+                        <label>Confirm Email Address</label><br> 
+                        <input type="email" id="conEmail" name="Email" placeholder="Confirm Email Address" required><br> <br>
+                    </div>
+                    <div class="guestDetails">
+                        <label for="gender">Gender</label><br> 
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select><br> <br>
+                    </div>
+                    <div class="slAD">
+                        <label for="slAD">SL Adult: </label>
+                        <button id="decrement"> - </button>
+                        <input type="number" id="slAD" name="number" value="0" size="2" min="0" max="50" step="1" readonly>
+                        <button id="increment" type="button"> + </button>
+                    </div>
+                    <div class="slCH">
+                        <label for="slCH">SL Child: </label>
+                        <button id="decrement1"> - </button>
+                        <input type="number" id="slCH" name="number" value="0" size="2" min="0" max="50" step="1" readonly>
+                        <button id="increment1"> + </button>
+                    </div>
+                    <div class="foAD">
+                        <label for="foAD">Foreign Adult: </label>
+                        <button id="decrement2"> - </button>
+                        <input type="number" id="foAD" name="number" value="0" size="2" min="0" max="50" step="1" readonly>
+                        <button id="increment2"> + </button>
+                    </div>
+                    <div class="foCH">
+                        <label for="foCH">Foreign Child: </label>
+                        <button id="decrement3"> - </button>
+                        <input type="number" id="foCH" name="number" value="0" size="2" min="0" max="50" step="1" readonly>
+                        <button id="increment3"> + </button>
+                    </div>
+                    <div class="iNf">
+                        <label for="iNf">Infant: </label>
+                        <button id="decrement4"> - </button>
+                        <input type="number" id="iNf" name="number" value="0" size="2" min="0" max="50" step="1" readonly>
+                        <button id="increment4"> + </button>
+                    </div>
+                
+                <h2>Duration</h2>
+                    <div class="guestDetails">
+                        <label for="duRation">Duration</label>
+                        <select id="duRation">
+                            <option value="3 hours" default>3 hours</option>
+                            <option value="Half Day">Half Day</option>
+                            <option value="Full Day">Full Day</option>
+                        </select>
+                    </div>
+                
+                    
+                <h2>Current Order</h2>
+                    <p id="currentOrder"></p>
+                    <p>Cost of Current Order: </p>
+                    <p id="cost">0.00</p>
+                    <button id="addOrder" type="button">Add to Order</button> <br>
+                    <button id="addFav" type="button">Add to Favorite</button>
+                    <button id="orderFav" type="button">Order Favorite</button> <br>
+                    <button id="loyalty" type="button">Check loyalty</button>
+                    <p id="outloy"></p>
+                    <button id="placeOrder" type="reset">Place Order</button>
+
+
+            </fieldset>
+            <fieldset>
+                <h2>Overall Order</h2>
+                <div id="overallOrder"></div>
+                <p>Cost of Overall Order: </p>
+                <p id="totalCost">LKR.0.00</p>
+            </fieldset>
+        </form>
+
+        <script src="styles/main.js"></script>
+    </body>
+</html>

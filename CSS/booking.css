@@ -1,0 +1,222 @@
+h1{
+  margin-left: 3em;
+}
+
+body{
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#ticketbooking{
+  position: absolute;
+  text-align: center;
+}
+
+#guestDetails{
+  padding-top: 2em;
+}
+
+#guestDetails input{
+  height: 2em;
+  width: 16em;
+  background-color: black;
+  border-radius: 0.5em;
+  border: none;
+}
+
+fieldset{
+  background-color: aliceblue;
+  margin-bottom: 3em;
+  margin-left: 5em;
+}
+
+#date{
+  border-radius: 2em;
+  background-color: whitesmoke;
+}
+
+#guestDetails select{
+  background-color: black;
+}
+
+#slAD{
+  width: 3em;
+}
+
+.slAD{
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.slAD input[type="number"]{
+  background-color: rgb(105, 103, 103);
+  text-align: center;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0em;
+}
+
+.slAD button{
+  background-color: black;
+  color: azure;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.slAD #decrement{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em 0em 0em 0.5em;
+  margin: 0 0 0 10em;
+  border-right-color: black;
+}
+
+.slAD #increment{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  border-right-color: black;
+}
+
+#slCH{
+  width: 3em;
+}
+
+.slCH{
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.slCH input[type="number"]{
+  text-align: center;
+  border: none;
+  background-color: rgb(105, 103, 103);
+}
+
+.slCH button{
+  background-color: black;
+  color: azure;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.slCH #decrement1{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em 0em 0em 0.5em;
+  margin: 0 0 0 10em;
+  border-right-color: black;
+}
+
+.slCH #increment1{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  border-right-color: black;
+}
+
+#foAD{
+  width: 3em;
+}
+
+.foAD{
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.foAD input[type="number"]{
+  text-align: center;
+  border: none;
+  background-color: rgb(105, 103, 103);
+}
+
+.foAD button{
+  background-color: black;
+  color: azure;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.foAD #decrement2{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em 0em 0em 0.5em;
+  margin: 0 0 0 7.1em;
+  border-right-color: black;
+}
+
+.foAD #increment2{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  border-right-color: black;
+}
+
+#foCH{
+  width: 3em;
+}
+
+.foCH{
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.foCH input[type="number"]{
+  text-align: center;
+  border: none;
+  background-color: rgb(105, 103, 103);
+}
+
+.foCH button{
+  background-color: black;
+  color: azure;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.foCH #decrement3{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em 0em 0em 0.5em;
+  margin: 0 0 0 7.1em;
+  border-right-color: black;
+}
+
+.foCH #increment3{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  border-right-color: black;
+}
+
+#iNf{
+  width: 3em;
+}
+
+.iNf{
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.iNf input[type="number"]{
+  text-align: center;
+  border: none;
+  background-color: rgb(105, 103, 103);
+}
+
+.iNf button{
+  background-color: black;
+  color: azure;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.iNf #decrement4{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em 0em 0em 0.5em;
+  margin: 0 0 0 11em;
+  border-right-color: black;
+}
+
+.iNf #increment4{
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  border-right-color: black;
+}
+

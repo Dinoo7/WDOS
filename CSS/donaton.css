@@ -1,0 +1,23 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Abel", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: aquamarine;
+    
+}
